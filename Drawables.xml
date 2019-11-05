@@ -35,11 +35,15 @@
          http://schemas.android.com/apk/res/android
            android:oneshot="false">
    <item android:drawable="@drawable/frame0« 
-           android:duration="50" />
+           android:duration="50"/>
    <item android:drawable="@drawable/frame1« 
-          android:duration="50" />
+          android:duration="50"/>
    <item android:drawable="@drawable/frame2« 
-          android:duration="50" />
+          android:duration="50"/>
 </animationlist>
+
+<!-- PARA LLAMAR A UNA ANIMACIÓN DESDE UN PROGRESS BAR -->
+
+android:indeterminateDrawable="@drawable/animacion"></ProgressBar>
 
 
